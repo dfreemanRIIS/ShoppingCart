@@ -5,8 +5,8 @@ import android.app.Application;
 
 public class Controller extends Application{
 
-    private  ArrayList<ModelProducts> myProducts = new ArrayList<ModelProducts>();
-    private  ModelCart myCart = new ModelCart();
+    private final ArrayList<ModelProducts> myProducts = new ArrayList<>();
+    private final ModelCart myCart = new ModelCart();
 
 
     public ModelProducts getProducts(int pPosition) {

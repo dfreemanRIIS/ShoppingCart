@@ -2,9 +2,9 @@ package com.example.dfreeman.shoppingcart;
 
 public class ModelProducts {
 
-    private String productName;
-    private String productDesc;
-    private int productPrice;
+    private final String productName;
+    private final String productDesc;
+    private final int productPrice;
 
     public ModelProducts(String productName,String productDesc,int productPrice)
     {

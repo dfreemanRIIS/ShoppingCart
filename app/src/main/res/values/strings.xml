@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ShoppingCart</string>
+    <string name="shopping_cart_content">Shopping Cart Content</string>
+    <string name="thank_you">Thanks you , you have purchased these products</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="payment">Payment</string>
+    <string name="checkout">Checkout</string>
 </resources>

@@ -27,7 +27,7 @@ public class FirstScreen extends Activity {
 
         /******************  Create Dummy Products Data  ***********/
 
-        ModelProducts productObject = null;
+        ModelProducts productObject;
         for(int i=1;i<=4;i++)
         {
             int price = 10+i;

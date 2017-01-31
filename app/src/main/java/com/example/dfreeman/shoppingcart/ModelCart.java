@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ModelCart{
 
-    private  ArrayList<ModelProducts> cartProducts = new ArrayList<ModelProducts>();
+    private final ArrayList<ModelProducts> cartProducts = new ArrayList<>();
 
 
     public ModelProducts getProducts(int pPosition) {

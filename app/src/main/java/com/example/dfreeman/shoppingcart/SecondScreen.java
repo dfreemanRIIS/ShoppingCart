@@ -41,7 +41,7 @@ public class SecondScreen extends Activity {
 
                 showString += "\n\nProduct Name : "+pName+"\n"+
                         "Price : "+pPrice+"\n"+
-                        "Discription : "+pDisc+""+
+                        "Description : "+pDisc+""+
                         "\n -----------------------------------";
             }
         }
@@ -65,13 +65,5 @@ public class SecondScreen extends Activity {
                             Toast.LENGTH_LONG).show();
             }
         });
-
-    }
-
-    @Override
-    protected void onDestroy() {
-
-        super.onDestroy();
-
     }
 }

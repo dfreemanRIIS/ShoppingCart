@@ -31,7 +31,7 @@ public class ThirdScreen extends Activity {
 
             showString += "\n\nProduct Name : "+pName+"\n"+
                     "Price : "+pPrice+"\n"+
-                    "Discription : "+pDisc+""+
+                    "Description : "+pDisc+""+
                     "\n -----------------------------------";
         }
 
